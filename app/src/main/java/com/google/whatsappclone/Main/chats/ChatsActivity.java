@@ -134,7 +134,7 @@ public class ChatsActivity extends AppCompatActivity {
                         }
                     }
                     if (adapter != null) {
-                        adapter.notifyItemInserted(0);
+                        
                         adapter.notifyDataSetChanged();
                     } else {
                         adapter = new ChatAdapter(list, ChatsActivity.this);
