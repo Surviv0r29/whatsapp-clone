@@ -7,6 +7,7 @@ public class ChatList {
     private String description;
     private String urlProfile;
 
+
     public ChatList() {
     }
 

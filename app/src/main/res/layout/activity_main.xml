@@ -22,7 +22,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
-            android:fadingEdge="horizontal|vertical"
+            android:elevation="0dp"
+            android:fadingEdge="horizontal|vertical|none"
             app:title="@string/whatsapp"
             app:titleTextColor="#FBFBFB" />
 
@@ -34,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
+        android:elevation="0dp"
         android:fadingEdge="none"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,23 +46,7 @@
         app:tabIndicatorHeight="?actionBarSize"
         app:tabRippleColor="#46454A"
         app:tabSelectedTextColor="@android:color/white">
-        <!--
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/chats"/>
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/status"/>
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:text="@string/calls" />
-           -->
 
     </com.google.android.material.tabs.TabLayout>
 
@@ -68,7 +54,6 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="@+id/tablayout"
         app:layout_constraintHorizontal_bias="0.0"

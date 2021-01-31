@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.google.whatsappclone.Main.Auth.PhoneLoginActivity;
 import com.google.whatsappclone.Main.MainActivity;
+import com.google.whatsappclone.Main.chats.ChatsActivity;
 import com.google.whatsappclone.R;
 
 public class WelcomeScreenActivity extends AppCompatActivity {

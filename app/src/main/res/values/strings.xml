@@ -28,4 +28,9 @@
     <string name="last_seen_today_12_35_a_m">Last seen Today 12:35 A.M.</string>
     <string name="type_your_message">Type your Message                          </string>
     <string name="this_is_a_text_message">This is a text message</string>
+    <string name="gallery">gallery</string>
+    <string name="documents">documents</string>
+    <string name="audio">Audio</string>
+    <string name="contacts">contacts</string>
+    <string name="photo">Photo</string>
 </resources>
